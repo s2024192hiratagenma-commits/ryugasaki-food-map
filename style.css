@@ -74,5 +74,25 @@ footer {
   margin: 1rem;
   font-size: 0.9rem;
 }
+/* 右上のアンケートボタン */
+.survey-btn {
+  position: fixed;       /* スクロールしてもずっと右上に固定 */
+  top: 20px;             /* 上からの距離 */
+  right: 20px;           /* 右からの距離 */
+  background: #ff9800;   /* オレンジ色 */
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  z-index: 999;          /* 他より前に表示 */
+}
+
+/* ホバーで色を変える */
+.survey-btn:hover {
+  background: #e68900;
+}
+
 
 
